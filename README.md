@@ -26,9 +26,9 @@ Cette application web est une **to-do list** développée en PHP, HTML, CSS, Jav
 ![Modèle conceptuel](MCD.svg)
 
 ## Images
-<img src="login.png" alt="drawing" width="200"/>
-<img src="signup.png" alt="drawing" width="200"/>
-<img src="dashboard.png" alt="drawing" width="200"/>
+<img src="login.png" alt="drawing" width="500"/>
+<img src="signup.png" alt="drawing" width="500"/>
+<img src="dashboard.png" alt="drawing" width="500"/>
 
 **Clonez le dépôt** :
 
