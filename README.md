@@ -7,11 +7,11 @@ Cette application web est une **to-do list** développée en PHP, HTML, CSS, Jav
 - **Page d'authentification** : Permet aux utilisateurs existants de se connecter.
 - **Tableau de bord des tâches** : Interface permettant de visualiser et gérer les tâches.
 - **Déconnexion** : L'utilisateur peut se déconnecter via un bouton dédié dans le menu.
-- **Ajout de catégories** : Les utilisateurs peuvent ajouter des catégories (listes) dans leur tableau de bord.
+- **Ajout de catégories/listes** : Les utilisateurs peuvent ajouter des catégories (listes) dans leur tableau de bord.
 - **Ajout de tâches** : Permet à l'utilisateur d'ajouter des tâches à une catégorie.
-- **Suppression de catégories** : L'utilisateur peut supprimer les catégories qu'il a créées.
+- **Suppression de catégories/listes** : L'utilisateur peut supprimer les catégories qu'il a créées.
 - **Suppression de tâches** : L'utilisateur peut supprimer des tâches de ses catégories.
-- **Changement de statut des tâches** : L'utilisateur peut modifier le statut des tâches (par exemple, "Non commencé", "En cours", "Terminé").
+- **Changement de statut des tâches** : L'utilisateur peut modifier le statut des tâches.
 - **Filtrage des tâches par statut** : Permet de voir les tâches en fonction de leur statut (finies ou non).
 - **Modification des tâches** : L'utilisateur peut modifier les détails d'une tâche en cliquant dessus.
 - **Création de projets personnalisés** : L'utilisateur peut créer des projets personnels via la barre de navigation.
