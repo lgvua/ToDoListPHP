@@ -7,6 +7,9 @@ Cette application web est une **to-do list** développée en PHP, HTML, CSS, Jav
 - **Connexion utilisateur** : Authentification via un système de login et logout.
 - **Gestion des tâches** : Ajout, modification, suppression et affichage des tâches.
 - **Base de données MySQL** : Stockage des informations relatives aux tâches et utilisateurs.
+
+## Accéder à l'application en ligne
+  https://lvuachet.fr/projet/application/planification/index.php
   
 ## Installation
 
