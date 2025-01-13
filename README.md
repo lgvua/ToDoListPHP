@@ -18,17 +18,17 @@ Cette application web est une **to-do list** développée en PHP, HTML, CSS, Jav
 - **Chargement de projets** : Permet de charger un projet existant.
 - **Suppression de projets** : L'utilisateur peut supprimer des projets qu'il a créés.
 
+## Accéder à l'application en ligne
+  [https://lvuachet.fr/projet/application/planification/index.php](https://lvuachet.fr/projet/application/planification/index.php)
+  
+
 ## Modèle conceptuel
 ![Modèle conceptuel](MCD.svg)
 
 ## Images
-![Identification](login.png)
-![Inscription](signup.png)
-![Dashboard](dashboard.png)
-
-## Accéder à l'application en ligne
-  [https://lvuachet.fr/projet/application/planification/index.php](https://lvuachet.fr/projet/application/planification/index.php)
-  
+<img src="login.png" alt="drawing" width="200"/>
+<img src="signup.png" alt="drawing" width="200"/>
+<img src="dashboard.png" alt="drawing" width="200"/>
 
 **Clonez le dépôt** :
 
