@@ -1,5 +1,5 @@
-<?php
-
+<?php 
+# Les données de connexion à ma base de données sont censurées. Dans le cas d'une utilisation personnelle, il faut modifier ces variables
 $databaseHost = '************';
 $databaseUsername = '***************';
 $databasePassword = '**************';
