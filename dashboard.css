@@ -1,0 +1,718 @@
+/* Police */
+
+@import url(https://fonts.googleapis.com/css?family=Courgette);
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+@import url(https://use.fontawesome.com/releases/v5.0.6/css/all.css);
+
+.NEWCLASS {
+    font-family: FontAwesome;
+}
+
+.swal-wide{
+    font-size: 16px;
+}
+
+/*  ------------ Board ------------ */
+
+  li.dropdown {
+    display: inline-block;
+  }
+
+  .menu-btn-icon {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .menu-btn
+  {
+    text-decoration:none;
+    color:white;
+  }
+
+  .board-bar {
+    font-size: 15px;
+  }
+
+  .board-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: rgba(48,48,48,0.5);  Gris anthracite */
+  }
+
+  .board-bar .project, .board-bar .name {
+    cursor: default;
+  }
+
+  .board-bar i
+  {
+     margin-right:4px;
+  }
+
+  .board-bar li , .dropdown {
+    float: left;
+    border-radius: 3px;
+  }
+
+  .board-bar li a, .board-bar .dropbtn, .board-bar .post , .dropdown{
+    display: inline-block;
+    color: white;
+    padding: 7px 8px;
+    text-decoration: none;
+  }
+
+  .board-bar .dropdown{
+    top: 7px;
+    right: 8px;
+    position: absolute;
+  }
+
+  .dropdown-content {
+    display: none;
+    margin-top:7px;
+    position: absolute;
+    text-align: center;
+    right: 0; 
+    box-shadow: 0 8 16 0 rgba(0,0,0,0.2);
+    z-index: 2;
+  }
+
+   .dropdown-content .so-browser
+  {
+    margin-top:4px;
+  }
+
+  .dropdown-content a, .dropdown-content button{
+      /*background-color: rgb(210,235,255,0.3);*/
+      background-color: #3f4e73;
+      border-radius: 3px;
+  }
+
+  .board-bar .lic:hover, .board-bar .so-btn:hover {
+    /*background-color: rgb(210,235,255,0.6);*/
+     background-color: #7f90ad;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+    .board-bar .so-btn {    
+    padding: 12px 16px;
+    display: block;
+    width: 100%;
+    }
+
+    .board-bar .so-btn {
+    text-decoration: none;
+    margin-top:4px;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+  }
+
+.board-bar .so-btn {
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+.dropdown-content.show {
+  display: block; /* Show when toggled */
+}
+
+.board-bar .fo-btn {
+  cursor: pointer;
+  font-size: 15px;
+  color: white;
+  background: transparent;
+  box-shadow: 0 0 0 transparent;
+  border: 0 solid transparent;
+  text-shadow: 0 0 0 transparent;
+}
+
+.board-bar .fo-btn:hover {
+  background: transparent;
+  box-shadow: 0 0 0 transparent;
+  border: 0 solid transparent;
+  text-shadow: 0 0 0 transparent;
+}
+
+.board-bar .fo-btn:active {
+  outline: none;
+  border: none;
+}
+
+.board-bar .fo-btn:focus {
+  outline: 0;
+}
+
+.board-bar .min {
+    display: none;
+}
+
+.min_a {
+  display: none;
+}
+
+.min_b{
+  display: none;
+}
+
+@media screen and (max-width: 1100px) {
+      .board-bar .max_a {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+      }
+    
+    .board-bar .min_a {
+            display: block;
+    }
+}
+
+ @media screen and (max-width: 800px) {
+      .board-bar .max_b {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+      }
+    
+    .board-bar .min_b {
+            display: block;
+    }
+}
+
+/*  ------------ Liste ------------ */
+
+  .list li button, .list li .btn {
+     border: 1px solid black;
+     padding: 2px 3px;
+     cursor: pointer;
+
+      -o-transition: background-color .2s ease-in; 
+      -moz-transition: background-color .2s ease-in;
+      -webkit-transition: background-color .2s ease-in; 
+      transition: background-color .2s ease-in; 
+  }
+
+  .list-items .y {
+       background-color: yellow;
+  }
+
+  .list-items .g {
+       background-color: lightgreen;
+       cursor: pointer;
+  }
+
+  .list .r {
+       background-color: #FF999C;
+       cursor: pointer;
+  }
+
+   .list .r:hover {
+       background-color: red;
+  }
+
+
+    .list-items .m-btn {
+        float: right;
+    }
+
+  .list-items form{
+    display: inline!important;
+  }
+
+  .list-items .g:hover {
+    background-color: green;
+  }
+
+   .list-items .y:hover {
+    background-color: #ba8e23;
+  }
+
+   .list .head-btn 
+   {
+    display: block;
+   }
+
+   .del-btn , .mod-btn
+   {
+          border:none;
+          display: inline-block;
+              -o-transition: background-color .2s ease-in; 
+          -moz-transition: background-color .2s ease-in;
+          -webkit-transition: background-color .2s ease-in; 
+          transition: background-color .2s ease-in; 
+   }
+
+
+
+  .list .del-btn{
+    width: 20%;
+    cursor: pointer;
+  }
+
+  .list .mod-btn {
+    width: 79%;
+    cursor: pointer;
+  }
+
+  .list .mod-btn:hover {
+      background-color: #cdd2d4;
+  }
+
+  .list
+  {
+    z-index: 1;
+  }
+
+  hr.solid {
+    border-top: 1px solid #bbb;
+    width: 100%;
+  }
+
+  .headarea button {
+     border: 2px solid #ccc;
+     margin: 2px 2px;
+    color: black;
+  }
+
+  .headarea .browser {
+     background-color: #f8f8f8;
+     font-size: 13px;
+     border: 2px solid #ccc;
+     border-radius: 2px;
+     width: 180px;
+  }
+/*  ------------  Ajout catÃƒÅ gorie ------------ */
+  .add-list button
+  {
+    background-color: transparent;
+    border:2px solid #a5cae0;
+    color: #a5cae0;
+    opacity: 1;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+
+
+  .add-list {
+    background-color: #006aa7;
+    color: #a5cae0;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    transition: background-color 150ms;
+    display: block;
+    width:100%;
+  }
+
+  .add-list:hover {
+    background-color: #005485;
+  }
+
+  .add-list button:hover
+  {
+    background-color: #006aa7;
+  }
+
+  /*  ------------  Ajout catÃƒÅ gorie : input text   ------------ */
+
+  .add-list input::placeholder {
+    color: #a5cae0;
+    opacity: 1;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .add-list input[type="text"]{
+      background-color: transparent!important;
+      border-top: transparent!important;
+      border-left: transparent!important;
+      border-right: transparent!important;
+      border-bottom: 1px solid #a5cae0;
+      /*border-color: transparent!important;*/
+      width: 50%;
+      outline: transparent!important;
+      color: #a5cae0;
+      cursor: text;
+      font-weight: 400;
+      font-size: 14px;
+  }
+
+
+
+/*  ------------  Ajout tÃƒÄ¸che  ------------ */
+    
+  .add-card {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: black;
+    padding: 1rem;
+  }
+
+  .add-card i, .add-card button {
+    cursor: pointer;
+  }
+
+  .add-card form{
+    width: 100%;
+  }
+
+  .add-card:hover {
+    background-color: #cdd2d4;
+    color: black;
+  }
+
+  .add-card button{
+     border: 2px solid #ccc;
+     background-color: #f8f8f8;
+     float: right;
+     color: black;
+  }
+
+  .add-card button:hover,   .headarea button:hover {
+      background-color: #dfdfdf;
+  }
+
+  .add-card textarea{
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    padding: 3px 5px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 13px;
+    color: black;
+    resize: vertical;
+  }
+
+  .add-card textarea::placeholder
+  {
+    color: black;
+  }
+
+  .add-card .browser,  .add-card textarea
+  {
+     background-color: #f8f8f8;
+     font-size: 13px;
+     border: 2px solid #ccc;
+     border-radius: 2px;
+  }
+
+ /*  ------------  input text   ------------ */
+
+  .add-card input::placeholder{
+    opacity: 1;
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+  }
+
+  .add-card input[type="text"]{
+      background-color: #f8f8f8;
+      border: 2px solid #ccc;
+      color: black;
+      cursor: text;
+      width: 10em;
+      font-weight: 400;
+      font-size: 14px;
+  }
+
+
+/* -------------- ------------------------ */
+
+
+
+.centered {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  width: 80vw;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: fixed; /* Use fixed positioning for centering in the viewport */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Offset the element by half of its width and height */
+  z-index: 3; /* Position in front of the overlay */
+}
+
+.centered label {
+  margin-left: auto;
+  text-decoration: underline;
+  margin-bottom: 10px;
+  display: block;
+  font-weight: bold;
+  font-size: 15px;
+  color: #333;
+}
+
+.centered input[type="text"],
+.centered textarea,
+.centered .browser {
+  width: 100%;
+  padding: 8px 12px;
+  margin-bottom:15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 14px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.2s ease;
+}
+
+.centered input[type="text"]:focus,
+.centered textarea:focus,
+.centered .browser:focus {
+  border-color: #888;
+  outline: none;
+}
+
+.centered textarea {
+  height: 150px;
+  resize: none;
+}
+
+.centered .del-btn {
+  margin-bottom: 15px;
+}
+
+.centered .del-btn,
+.centered .mod-btn {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #e7e7e7;
+  color: #333;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.centered .del-btn:hover {
+  background-color: #d9534f;
+  color: #fff;
+}
+
+.centered .mod-btn:hover {
+  background-color: #5cb85c;
+  color: #fff;
+}
+
+.centered .created,
+.centered .modified {
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* Couche semi-transparente */
+}
+
+@media screen and (max-width: 768px) {
+  .centered label {
+    font-size: 14px;
+  }
+
+  .centered textarea {
+    height: 80px;
+  }
+
+  .centered .created,
+  .centered .modified {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-height: 600px) {
+
+  .centered textarea {
+    height: 70px;
+  }
+}
+
+/* -------------------- Base ----------------------- */
+
+:root {
+  /* Base font size */
+  font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background: rgb(0,68,149);
+  background: radial-gradient(circle, rgba(0,68,149,1) 0%, rgba(1,0,34,1) 100%);
+}
+
+
+
+/* Lists */
+
+.lists-container::-webkit-scrollbar {
+  height: 2.4rem;
+}
+
+.lists-container::-webkit-scrollbar-thumb {
+  background-color: #66a3c7;
+  border: 0.8rem solid #0079bf;
+  border-top-width: 0;
+}
+
+.lists-container {
+  display: flex;
+  align-items: start;
+  padding: 0 0.8rem 0.8rem;
+  overflow-x: auto;
+  height: calc(100vh - 8.6rem);
+}
+
+.list {
+  flex: 0 0 27rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #e2e4e6;
+  max-height: calc(100vh - 11.8rem);
+  border-radius: 0.3rem;
+  margin-right: 1rem;
+}
+
+.list:last-of-type {
+  margin-right: 0;
+}
+
+.list-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333;
+  padding: 1rem;
+}
+
+.list-items {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-content: start;
+  padding: 0 0.6rem 0.5rem;
+  overflow-y: auto;
+}
+
+.list-items::-webkit-scrollbar {
+  width: 1.6rem;
+}
+
+.list-items::-webkit-scrollbar-thumb {
+  background-color: #c4c9cc;
+  border-right: 0.6rem solid #e2e4e6;
+}
+
+.list-items li {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3;
+  background-color: #fff;
+  padding: 0.65rem 0.6rem;
+  color: #4d4d4d;
+  border-bottom: 0.1rem solid #ccc;
+  border-radius: 0.3rem;
+  margin-bottom: 0.6rem;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+.list-items li:last-of-type {
+  margin-bottom: 0;
+}
+
+.list-items li:hover {
+  background-color: #eee;
+}
+
+/*
+All grid code is placed in a 'supports' rule (feature query) at the bottom of the CSS (Line 308). 
+            
+The 'supports' rule will only run if your browser supports CSS grid.
+Flexbox is used as a fallback so that browsers which don't support grid will still recieve an identical layout.
+*/
+
+
+/*
+The following rule will only run if your browser supports CSS grid.
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+*/
+
+@supports (display: grid) {
+  body {
+    display: grid;
+    grid-template-rows: 4rem 3rem auto;
+    grid-row-gap: 0.8rem;
+  }
+
+  .user-settings {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-column-gap: 0.8rem;
+  }
+
+  .board-controls {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 1rem;
+  }
+
+  .lists-container {
+    display: grid;
+    grid-auto-columns: 30rem;
+    grid-auto-flow: column;
+    grid-column-gap: 1rem;
+  }
+
+  .list {
+    display: grid;
+    grid-template-rows: auto minmax(auto, 1fr) auto;
+  }
+
+  .list-items {
+    display: grid;
+    grid-row-gap: 0.6rem;
+  }
+
+  .logo,
+  .list,
+  .list-items li,
+  .boards-btn,
+  .board-info-bar,
+  .board-controls .btn,
+  .user-settings-btn {
+    margin: 0;
+  }
+}
